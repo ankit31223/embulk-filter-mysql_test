@@ -82,7 +82,7 @@ Gem::Specification.new do |spec|
   spec.description   = %[Mysql Test]
   spec.email         = ["ankit.kumar@infoobjects.com"]
   spec.licenses      = ["MIT"]
-  spec.homepage      = "https://github.com/ankit.kumar/embulk-filter-mysql_test"
+  spec.homepage      = "https://github.com/ankit31223/embulk-filter-mysql_test"
 
   spec.files         = `git ls-files`.split("\n") + Dir["classpath/*.jar"]
   spec.test_files    = spec.files.grep(%r"^(test|spec)/")
